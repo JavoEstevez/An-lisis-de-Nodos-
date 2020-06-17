@@ -6,7 +6,7 @@ El análisis de nodos facilitan un facil uso para tratar con los circuitos eléc
 
 2. OBJETIVOS
 
-* Realizar el circuito indicado y medir los voltajes en cada uno de los nodos formados.
+* Realizar el circuito indicado y medir los voltajes en cada uno de los nodos formados aplicando los conceptos básicos de teoría.
 
 * Comparar el valor de cada medición de voltaje obtenidos en cada nodo.
 
