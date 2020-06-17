@@ -8,14 +8,13 @@ El análisis de nodos facilita el uso para tratar con los circuitos eléctricos,
 
 * Realizar el circuito indicado y medir los voltajes en cada uno de los nodos formados aplicando los conceptos básicos de teoría.
 
-* Comparar el valor de cada medición de voltaje obtenidos en cada nodo.
+* Comparar el valor de cada medición de voltaje obtenidos en cada nodo y a la vez utilizando el porcentaje de error en cada medición.
 
-* Verificar que las corrientes que entran en un nodo son iguales a las que salen del mismo y de está manera encontrar los valores de las tensiones que caen en cada uno de ellos. 
-
+* Verificar que las corrientes que entran en un nodo son iguales a las que salen del mismo y de esta manera encontrar los valores de las tensiones que caen en cada uno de ellos.
 
 3. MARCO TEÓRICO 
 
-El análisis de nodos es posible cuando todos los nodos tienen conductancia. Este método produce un sistema de ecuaciones, que puede resolverse a mano si es pequeño, o tambiénpuede resolverse rápidamente usando álgebra lineal en un computador. Por el hecho de que forme ecuaciones muy sencillas, este método es una base para muchos programas de simulación de circuitos (Por ejemplo, Tinkercad). Cuando los elementos del circuito no tienen conductancia, se puede usar una extensión más general del análisis de nodos, El análisis de nodos modificado.
+El análisis de nodos es posible cuando todos los nodos tienen conductancia. Este método produce un sistema de ecuaciones, que puede resolverse a mano si es pequeño, o también puede resolverse rápidamente usando álgebra lineal en un computador. Por el hecho de que forme ecuaciones muy sencillas, este método es una base para muchos programas de simulación de circuitos (Por ejemplo, Tinkercad). Cuando los elementos del circuito no tienen conductancia, se puede usar una extensión más general del análisis de nodos, El análisis de nodos modificado.
 
 ¿Qué es un nodo?
 
@@ -42,7 +41,7 @@ c. Identifique los nodos que están conectados a fuentes de voltaje que tengan u
 
 d. Asigne una variable para los nodos que tengan tensiones desconocidas. Si la tensión del nodo ya se conoce, no es necesario asignarle una variable.
 
-e. Para cada uno de los nodos, se plantean las ecuaciones de acuerdo con las Leyes de Kirchhoff. Básicamente, sume todas las corrientes que pasan por el nodo e igualelas a 0. Por lo general el número de ecuaciones es menor a al número de nodos localizados.
+e. Para cada uno de los nodos, se plantean las ecuaciones de acuerdo con las Leyes de Kirchhoff. Básicamente, sume todas las corrientes que pasan por el nodo e igualamos a 0. Por lo general el número de ecuaciones es menor a al número de nodos localizados.
 
 f. Si hay fuentes de tensión entre dos tensiones desconocidas, una esos dos nodos como un supernodo, haciendo el sumatorio de todas las corrientes que entran y salen en ese supernodo. Las tensiones de los dos nodos simples en el supernodo están relacionadas por la fuente de tensión intercalada.
 
@@ -60,13 +59,13 @@ Descripción del circuito
 * Además, dentro del circuito se aprecia 5 resistencias medidas en KOhms
 * Al momento de unir dos elementos eléctricos, se forman nodos que para el caso del circuito de la práctica reconocemos 3 nodos principales.
 * Se tiene que la resistencia de 1,8 KOhm forma nodo con las resistencias de 47 Ohm y 2.2 KOhm. La resistencia de 2.2 KOhm forma un nodo con las resistencias de 3.9 KOhm y 1.5 KOhm. Como nodo de referencia o tierra es toda la sección de abajo del circuito eléctrico.
-* Ademas se puede identificcar 3 mallas, colocando una intensidad en cada malla denotándolas como I1, I2, I3 todas en sentido de las manecillas del reloj.
+* Además se puede identificar 3 mallas, colocando una intensidad en cada malla denotándolas como I1, I2, I3 todas en sentido de las manecillas del reloj.
 
 Circuito Eléctrico hecho en Tinkercad
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Circuito%20armado%20.jpg)
 
-Circuito Elécrtico con mediciones realizado en Proteus 
+Circuito Eléctrico con mediciones realizado en Proteus 
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Circuito_Proteus.png)
 
@@ -88,7 +87,7 @@ Circuito Elécrtico con mediciones realizado en Proteus
 
 * Haciendo clic izquierdo en los pines del protoboard conectamos con cables las resistencias y pasamos corriente a donde haga falta.
 
-* Colocamos un multímetro y cambiamos la configuración del multímetro en volatje y conectamos en paralelo con el circuito, el color negro es el negativo mientras que el color rojo es el positivo. 
+* Colocamos un multímetro y cambiamos la configuración del multímetro en volataje y conectamos en paralelo con el circuito, el color negro es el negativo mientras que el color rojo es el positivo. 
 
 * Realizamos las mediciones de volatje en cada nodo pedidas en la guía.
 
@@ -106,17 +105,21 @@ Circuito Elécrtico con mediciones realizado en Proteus
 
 8. CONCLUSIONES 
 
-* Este método nos facilitó encontrar los voltajes que pueden encontrarse en el nodo y así nos podrá ayudar para encontrar la corriente que pase por las resistencias.
+* Este método nos facilitó encontrar los voltajes que pueden encontrarse en el nodo y así nos podrá ayudar para encontrar la corriente que pase por las resistencias aplicando las fórmulas para facilitar el proceso.
 
-* Este método se vuelve mas fácil para analizar el circuito debido a que se toma un voltaje de referencia el cuál siempre es igual a cero y nos elimina una variable para calcular
+* Este método se vuelve más fácil para analizar el circuito debido a que se toma un voltaje de referencia el cuál siempre es igual a cero y nos elimina una variable para calcular, permitiéndonos una resolución más rápida del ejercicio
 
 
 
 9. RECOMENDACIONES 
 
-* Se recomienda cambiar el color de los cables a rojo y negro para de esta manera identificar cuales son positivos o negativos y no crear una confusión a la hora de conectar el circuito.
+* Se recomienda cambiar el color de los cables a rojo y negro para de esta manera identificar cuáles son positivos o negativos, no crear una confusión al momento de conectar el circuito.
 
-* Recomendamos una vez obtenido el sistema de ecuaciones relacionado al voltaje en cada nodo, utilizar el método de sustitución para resolver dicho sistema, ya que al no ser un sistema tan complejo se puede resolver facilmente, en caso contrario usar un software que desarrolle el sistema encotrado.
+* Tener en cuenta y verificar los valores de la fuente así como también el valor de las resistencias ya que muchas veces se equivoca al poner KOhm o Ohm.
+
+* Recomendamos una vez obtenido el sistema de ecuaciones relacionado al voltaje en cada nodo, utilizar el método de sustitución para resolver dicho sistema, ya que al no ser un sistema tan complejo se puede resolver fácilmente, en caso contrario usar un software que desarrolle el sistema encontrado.
+
+* Utilizar otros programas para poder verificar los cálculos y poder tener una respuesta correcta. 
 
 10. CRONOGRAMA
 
