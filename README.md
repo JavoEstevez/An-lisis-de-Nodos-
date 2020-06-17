@@ -53,6 +53,8 @@ Circuito Eléctrico
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Diagrama.jpg)
 
+Fig 2 .Circuito eléctrico, identificando nodos
+
 Descripción del circuito
 
 * En el diagrama se observa dos fuentes voltajes independientes, conectadas a los extremos del circuito.
@@ -65,13 +67,19 @@ Circuito Eléctrico hecho en Tinkercad
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Circuito%20armado%20.jpg)
 
+Fig 3 .Implementación del circuito eléctrico en el simulador Tinkercad
+
 Circuito Eléctrico con mediciones realizado en Proteus 
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Circuito_Proteus.png)
 
+Fig 4 .Implementación del circuito eléctrico en el programa Proteus
+
 5. LISTAS DE COMPONENTES
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/componentes%20.jpg)
+
+Fig 5 .Descripción de los componenetes usados en el simulador Tinkercad.
 
 6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
