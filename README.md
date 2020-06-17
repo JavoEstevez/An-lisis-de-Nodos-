@@ -103,7 +103,14 @@ Circuito Eléctrico con mediciones realizado en Proteus
 |B  |                   4.80V |4.80V                    |4.80V               |              
 |C  |                   0V   | 0V                   |0V                 |
 
-8. CONCLUSIONES 
+8. PORCENTAJE DE ERROR.
+
+% Error-A= (|2.82-2.81|)/2.82*100=0.3546 %
+% Error-B= (|4.80-4.80|)/4.80*100=0 %
+% Error-C= (|0-0|)/0*100=0 %
+
+
+9. CONCLUSIONES 
 
 * Este método nos facilitó encontrar los voltajes que pueden encontrarse en el nodo y así nos podrá ayudar para encontrar la corriente que pase por las resistencias aplicando las fórmulas para facilitar el proceso.
 
@@ -111,7 +118,7 @@ Circuito Eléctrico con mediciones realizado en Proteus
 
 
 
-9. RECOMENDACIONES 
+10. RECOMENDACIONES 
 
 * Se recomienda cambiar el color de los cables a rojo y negro para de esta manera identificar cuáles son positivos o negativos, no crear una confusión al momento de conectar el circuito.
 
@@ -121,13 +128,13 @@ Circuito Eléctrico con mediciones realizado en Proteus
 
 * Utilizar otros programas para poder verificar los cálculos y poder tener una respuesta correcta. 
 
-10. CRONOGRAMA
+11. CRONOGRAMA
 
 Actividades desarrolladas a lo largo de la practica de laboratorio.
 
 ![](https://github.com/JavoEstevez/An-lisis-de-Nodos-/blob/master/img/Cronograma.png)
 
-11. BIBLIOGRAFÍA 
+12. BIBLIOGRAFÍA 
 
 
 Alexander, C. 2006. Fundamentos de Circuitos Eléctricos. 3ra. Edición. Mc Graw Hill.
@@ -135,4 +142,3 @@ Alexander, C. 2006. Fundamentos de Circuitos Eléctricos. 3ra. Edición. Mc Graw
 Boylestad, R. 2011. Introducción al Análisis de Circuitos.2da. Edición. Pearson.
 
 Dorf, R., & Svoboda, J. (2011). Circuitos eléctricos. México: Alfaomega.
-
