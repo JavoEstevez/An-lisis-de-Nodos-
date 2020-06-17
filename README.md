@@ -105,9 +105,6 @@ Circuito Eléctrico con mediciones realizado en Proteus
 
 8. PORCENTAJE DE ERROR.
 
-% Error-A= (|2.82-2.81|)/2.82*100=0.3546 %
-% Error-B= (|4.80-4.80|)/4.80*100=0 %
-% Error-C= (|0-0|)/0*100=0 %
 
 
 9. CONCLUSIONES 
