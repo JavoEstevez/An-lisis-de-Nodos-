@@ -2,7 +2,7 @@
 
 1. PLANTEAMIENTO DEL PROBLEMA 
 
-El análisis de nodos facilita el uso para tratar con los circuitos eléctricos, donde se afirma que la suma de las corrientes que entran en un nodo es igual a las que salen, a partir de la teoría fundamental de circuitos eleéctricos, se plantean las preguntas de esta práctica de laboratorio ¿Cómo se comporta en realidad la corriente eléctrica en los nodos? ¿Qué relaciones hay entre el voltaje y la corriente en un circuito complejo, con varias fuentes?
+El análisis de nodos facilita el uso para tratar con los circuitos eléctricos, donde se afirma que la suma de las corrientes que entran en un nodo es igual a las que salen, a partir de la teoría fundamental de circuitos eleéctricos, se plantean las preguntas de esta práctica de laboratorio ¿Cómo se comporta en realidad la corriente eléctrica en los nodos?
 
 2. OBJETIVOS
 
@@ -114,6 +114,8 @@ Circuito Eléctrico con mediciones realizado en Proteus
 * Este método se vuelve más fácil para analizar el circuito debido a que se toma un voltaje de referencia el cuál siempre es igual a cero y nos elimina una variable para calcular, permitiéndonos una resolución más rápida del ejercicio.
 
 * El porcentaje error nos demuestra que el informe se ha desarrollado de manera correcta y este caso existe en un solo nos un 0.35% de error entre el calculado y el medido, el cual es un porcentaje bajo y no afecta a los resultados.
+
+* Al momento de que la corriente emitida por las fuentes de volatje del circuito, ingrese a un nodo, dicha corriente va a obtener diferecntes direeciones dependiendo de los elementos que tengamos conectados al nodo, en donde tubimos que relacionar un diferencial de volateje para asi formar un sistema de ecuaciones que nos llevaria a la respuesta.  
 
 10. RECOMENDACIONES 
 
