@@ -105,7 +105,7 @@ Circuito Eléctrico con mediciones realizado en Proteus
 
 8. PORCENTAJE DE ERROR.
 
-![](https://github.com/JavoEstevez/Analisis-de-Nodos/blob/master/img/1111.png?raw=true)
+![](https://github.com/JavoEstevez/Analisis-de-Nodos/blob/master/img/1111.png)
 
 9. CONCLUSIONES 
 
